@@ -15,6 +15,8 @@ This Power BI dashboard provides insights into **product sales, customer demogra
 - `Section Five Data Extract.xlsx` → Sample dataset used.
 - `images/` → Folder containing dashboard screenshots.
 
+## 📊 Dashboard Overview
+![Dashboard Preview](Screenshot7.png)
 
 ## 🛠️ DAX Measures Used
 ```DAX
@@ -22,6 +24,5 @@ Products Sold = COUNT(dim_Product[ProductID])
 Total Customers = DISTINCTCOUNT(dim_Customer[CustomerID])
 Total Sales Amount = SUM(fact_Sales[SalesAmount])
 
-## 📊 Dashboard Overview
-![Dashboard Preview](Screenshot7.png)
+
 
