@@ -21,3 +21,6 @@ This Power BI dashboard provides insights into **product sales, customer demogra
 Products Sold = COUNT(dim_Product[ProductID])
 Total Customers = DISTINCTCOUNT(dim_Customer[CustomerID])
 Total Sales Amount = SUM(fact_Sales[SalesAmount])
+
+## 📊 Dashboard Overview
+![Dashboard Preview](images/Screenshot7.png)
