@@ -23,4 +23,5 @@ Total Customers = DISTINCTCOUNT(dim_Customer[CustomerID])
 Total Sales Amount = SUM(fact_Sales[SalesAmount])
 
 ## 📊 Dashboard Overview
-![Dashboard Preview](images/Screenshot7.png)
+![Dashboard Preview](Screenshot7.png)
+
